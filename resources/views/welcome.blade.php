@@ -12,7 +12,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Styles -->
-       
+
     </head>
     <body class="antialiased">
         <div id="app"></div>

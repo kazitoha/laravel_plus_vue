@@ -8,17 +8,17 @@ import TeacherEdit from "../component/teacher/EditTeacher.vue";
 
 
 const routes = [
-        { 
+        {
             path: '/',
             name:'List',
             component: StudentList,
         },
-        { 
+        {
             path: '/add-data',
             name:'Add',
             component: StudentAdd,
         },
-        { 
+        {
             path: '/edit-student/:id',
             name:'StudentEdit',
             component: StudentEdit,
@@ -39,7 +39,7 @@ const routes = [
             component:TeacherEdit,
         }
 
-        
+
 
 ]
 
@@ -50,4 +50,3 @@ const router = createRouter({
 
   export default router;
 
-  
